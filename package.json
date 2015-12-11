@@ -1,0 +1,28 @@
+{
+  "name": "skillsswap",
+  "version": "1.0.0",
+  "description": "Skills Swap (SS) will be a web application for managing the mutual exchange between different people in different countries online.",
+  "main": "index.js",
+  "dependencies": {
+    "init": "^0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NouranMahmoud/skills-swap-prototype.git"
+  },
+  "keywords": [
+    "skills",
+    "exchange",
+    "swap"
+  ],
+  "author": "Nouran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NouranMahmoud/skills-swap-prototype/issues"
+  },
+  "homepage": "https://github.com/NouranMahmoud/skills-swap-prototype#readme"
+}
