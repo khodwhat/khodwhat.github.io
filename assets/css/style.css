@@ -8,6 +8,8 @@ body {
 	color: #666;
 }
 
+
+
 /* Typography */
 h1#title {
 	font-family: 'Roboto Slab', serif;
@@ -52,9 +54,9 @@ p.small {
 
 
 /* Layout */
-.container {
+/*.container {
 	margin: 0;
-}
+}*/
 
 .top {
 	margin: 0;
@@ -149,4 +151,19 @@ p.small {
 .login-box {
   -webkit-animation-duration: 1s;
   -webkit-animation-delay: 1s;
+}
+
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
 }
