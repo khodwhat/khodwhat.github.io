@@ -8,7 +8,9 @@ body {
 	color: #666;
 }
 
-
+.green {
+	background-color: #61A37F !important;
+}
 
 /* Typography */
 h1#title {
@@ -166,4 +168,59 @@ p.small {
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+/*Cards*/
+/*.card .card-image img {
+  z-index:0;
+}
+.card .card-content span.card-title {
+  line-height: 48px;
+  position:relative;
+  padding:0px;
+}
+.card .card-reveal {
+  padding: 16px;
+  position: absolute;
+  background-color: #FFF;
+  top: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.card .card-reveal .card-title {
+  cursor: pointer;
+  display: block;
+}
+.card .card-image span.card-title {
+  position: relative;
+  padding:0px;
+}
+.card .card-image span.card-title i{ cursor:pointer;}
+*/
+.left-side p {
+  font-size:14px;
+  line-height:18px;
+}
+.left-side .block {
+  margin-bottom:40px;
+}
+.left-side .user-img {
+  width:70%;
+  display:block;
+  margin:0px auto;
+}
+.block {
+  margin-bottom:25px;
+}
+.right-side .block {
+  margin-bottom:25px;
+  margin-left:45px;
+}
+.right-side .block p {
+  margin-top:5px;
+}
+.helping-text {
+  margin:0px;
 }
