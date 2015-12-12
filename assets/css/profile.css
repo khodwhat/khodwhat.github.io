@@ -1,8 +1,18 @@
 
 /*Profile page*/
-/*body {
-  background-color: #eee;
-}*/
+body {
+  background: url("../images/bg2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  color: #666;
+}
+.green {
+  background-color: #61A37F !important;
+}
+
 #top-bar {
   background: #61A37F;
   height:200px;
@@ -19,7 +29,7 @@
   border-radius: 2px;
   overflow: hidden;
   z-index: 9;
-  margin-top: -120px;
+  margin-top: 20px;
   margin-bottom:50px;
 }
 img.responsive-img {
