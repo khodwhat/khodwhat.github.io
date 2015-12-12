@@ -4,6 +4,7 @@
   "description": "Skills Swap (SS) will be a web application for managing the mutual exchange between different people in different countries online.",
   "main": "index.js",
   "dependencies": {
+    "angular": "^1.4.8",
     "init": "^0.1.2",
     "materialize-css": "^0.97.3"
   },

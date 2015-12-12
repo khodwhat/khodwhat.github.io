@@ -10,11 +10,11 @@
     <link href="assets/css/flaticon.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
-  <body>
+  <body ng-app="myApp">
     <nav class="green" role="navigation">
       <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">
-	  <img src="assets/images/logo.png"></img>
-	  </a>
+    <img src="assets/images/logo.png"></img>
+    </a>
       <ul class="right hide-on-med-and-down">
         <li class="active"><a href="index.html">Home</a></li>
         <li><a href="profile.html">My profile</a></li>
@@ -30,11 +30,11 @@
     </div>
   </nav>
   <div class="section no-pad-bot" id="index-banner">
-    <div class="container" ng-controller="mainCtrl">
+    <div class="container">
       <br><br>
       <form>
         <div class="input-field">
-          <input id="search" type="search" required>
+          <input id="search" type="search" ng-model="query">
           <label for="search"><i class="material-icons">search</i></label>
           <i class="material-icons">close</i>
         </div>
@@ -53,7 +53,7 @@
                     <img class="activator" width="50%" height="50%" src="assets/images/1.jpg">
                   </div>
                   <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">Gehad Hamdy<i class="material-icons right">more_vert</i></span>
+                    <span class="card-title activator grey-text text-darken-4">Gehad   Hamdy<i class="material-icons right">more_vert</i></span>
                     <p><a href="#">Discover Profile</a></p>
                   </div>
                   <div class="card-reveal">
@@ -65,26 +65,22 @@
                     <div class="chip">
                       <a href="#">photoshop</a>
                     </div>
-					          <br></br>
+          <br></br>
                     <div class="chip">
                       <a href="#">Room Light</a>
                     </div>
                     <br><br>
-                    <p>Seeks for: </p>
-                    <div class="chip">
-                      <a href="#">Violin</a>
-                    </div>
-                    <div class="chip">
-                      <a href="#">Programming</a>
-                    </div>
-                    <br></br>
-                    <div class="chip">
-                      <a href="#">Marketing</a>
-                    </div>
-                    <br><br>
-                    <a class="waves-effect waves-teal btn-flat btn modal-trigger" href="request.html" >Request a skill</a>
+                    <a class="waves-effect waves-teal btn-flat btn modal-trigger" href="#skillRequest" >Request a skill</a>
                     <!-- Modal Structure -->
-                    
+                    <div id="skillRequest" class="modal">
+                      <div class="modal-content">
+                        <h4>Modal Header</h4>
+                        <p>A bunch of text</p>
+                      </div>
+                      <div class="modal-footer">
+                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -106,7 +102,7 @@
                     <div class="chip">
                       <a href="#">Drawing</a>
                     </div>
-					<br></br>
+          <br></br>
                     <div class="chip">
                       <a href="#">Crochet</a>
                     </div>
@@ -143,7 +139,7 @@
                     <div class="chip">
                       <a href="#">music-playing</a>
                     </div>
-					<br></br>
+          <br></br>
                     <br><br>
                     <a class="waves-effect waves-teal btn-flat btn modal-trigger" href="#skillRequest" >Request a skill</a>
                     <!-- Modal Structure -->
