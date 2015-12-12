@@ -11,6 +11,11 @@ body {
 .green {
 	background-color: #61A37F !important;
 }
+.message-padding {
+	padding-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .content {
     background-color: #fff;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
