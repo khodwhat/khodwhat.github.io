@@ -11,7 +11,19 @@ body {
 .green {
 	background-color: #61A37F !important;
 }
-
+.content {
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 2px;
+    overflow: hidden;
+    z-index: 9;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
 /* Typography */
 h1#title {
 	font-family: 'Roboto Slab', serif;
