@@ -1,1 +1,1 @@
-Hatw5od platform
+Khod w Hat platform
